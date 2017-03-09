@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-size: 0px;
+  outline: 0; }
+
+body {
+  background-color: #dcefdc; }
+
+.parent {
+  display: flex;
+  width: 1000px;
+  height: 100px;
+  background-color: #b8e0b9;
+  border: 1px solid black;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+
+.button {
+  padding: 15px 25px;
+  width: 100px;
+  height: 40px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999; }
+
+.button:hover {
+  background-color: #3e8e41; }
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px); }
+
+.div {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite; }
+
+.div1 {
+  animation-timing-function: linear;
+  color: red; }
+
+.div2 {
+  animation-timing-function: ease;
+  color: red; }
+
+.div3 {
+  animation-timing-function: ease-in;
+  color: black; }
+
+.div4 {
+  animation-timing-function: ease-out;
+  color: black; }
+
+.div5 {
+  animation-timing-function: ease-in-out;
+  color: blue; }
+
+@keyframes mymove {
+  0% {
+    background-color: red;
+    left: 0px; }
+  25% {
+    background-color: yellow;
+    left: 250px; }
+  50% {
+    background-color: blue;
+    left: 500px;
+    transform: rotateZ(180deg) scale(3); }
+  75% {
+    background-color: green;
+    left: 750px; }
+  100% {
+    background-color: red;
+    left: 1000px; } }
+
+/*# sourceMappingURL=style2.css.map */
