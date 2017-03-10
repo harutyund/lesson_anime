@@ -49,7 +49,8 @@ body {
   text-align: center;
   font-weight: bold;
   position: relative;
-  animation: mymove 5s infinite; }
+  cursor: pointer;
+  margin: 10px; }
 
 .div1 {
   animation-timing-function: linear;
@@ -88,5 +89,8 @@ body {
   100% {
     background-color: red;
     left: 1000px; } }
+.move {
+  animation: mymove 5s;
+  animation-iteration-count: 2; }
 
 /*# sourceMappingURL=style2.css.map */
